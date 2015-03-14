@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCFC4DCA1AB4833D00CD1A8C /* NgCollection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DCFC4DC91AB4833D00CD1A8C /* NgCollection.h */; };
+		DCFC4DCC1AB4833D00CD1A8C /* NgCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFC4DCB1AB4833D00CD1A8C /* NgCollection.m */; };
+		DCFC4DD21AB4833D00CD1A8C /* libNgCollection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFC4DC61AB4833D00CD1A8C /* libNgCollection.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCFC4DD31AB4833D00CD1A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFC4DBE1AB4833D00CD1A8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFC4DC51AB4833D00CD1A8C;
+			remoteInfo = NgCollection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCFC4DC41AB4833D00CD1A8C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DCFC4DCA1AB4833D00CD1A8C /* NgCollection.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DCFC4DC61AB4833D00CD1A8C /* libNgCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNgCollection.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFC4DC91AB4833D00CD1A8C /* NgCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NgCollection.h; sourceTree = "<group>"; };
+		DCFC4DCB1AB4833D00CD1A8C /* NgCollection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NgCollection.m; sourceTree = "<group>"; };
+		DCFC4DD11AB4833D00CD1A8C /* NgCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NgCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFC4DD71AB4833D00CD1A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFC4DC31AB4833D00CD1A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC4DCE1AB4833D00CD1A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC4DD21AB4833D00CD1A8C /* libNgCollection.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCFC4DBD1AB4833D00CD1A8C = {
+			isa = PBXGroup;
+			children = (
+				DCFC4DC81AB4833D00CD1A8C /* NgCollection */,
+				DCFC4DD51AB4833D00CD1A8C /* NgCollectionTests */,
+				DCFC4DC71AB4833D00CD1A8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFC4DC71AB4833D00CD1A8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC4DC61AB4833D00CD1A8C /* libNgCollection.a */,
+				DCFC4DD11AB4833D00CD1A8C /* NgCollectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFC4DC81AB4833D00CD1A8C /* NgCollection */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC4DC91AB4833D00CD1A8C /* NgCollection.h */,
+				DCFC4DCB1AB4833D00CD1A8C /* NgCollection.m */,
+			);
+			path = NgCollection;
+			sourceTree = "<group>";
+		};
+		DCFC4DD51AB4833D00CD1A8C /* NgCollectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC4DD61AB4833D00CD1A8C /* Supporting Files */,
+			);
+			path = NgCollectionTests;
+			sourceTree = "<group>";
+		};
+		DCFC4DD61AB4833D00CD1A8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC4DD71AB4833D00CD1A8C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFC4DC51AB4833D00CD1A8C /* NgCollection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFC4DDA1AB4833D00CD1A8C /* Build configuration list for PBXNativeTarget "NgCollection" */;
+			buildPhases = (
+				DCFC4DC21AB4833D00CD1A8C /* Sources */,
+				DCFC4DC31AB4833D00CD1A8C /* Frameworks */,
+				DCFC4DC41AB4833D00CD1A8C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NgCollection;
+			productName = NgCollection;
+			productReference = DCFC4DC61AB4833D00CD1A8C /* libNgCollection.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DCFC4DD01AB4833D00CD1A8C /* NgCollectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFC4DDD1AB4833D00CD1A8C /* Build configuration list for PBXNativeTarget "NgCollectionTests" */;
+			buildPhases = (
+				DCFC4DCD1AB4833D00CD1A8C /* Sources */,
+				DCFC4DCE1AB4833D00CD1A8C /* Frameworks */,
+				DCFC4DCF1AB4833D00CD1A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFC4DD41AB4833D00CD1A8C /* PBXTargetDependency */,
+			);
+			name = NgCollectionTests;
+			productName = NgCollectionTests;
+			productReference = DCFC4DD11AB4833D00CD1A8C /* NgCollectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFC4DBE1AB4833D00CD1A8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Meiwin;
+				TargetAttributes = {
+					DCFC4DC51AB4833D00CD1A8C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DCFC4DD01AB4833D00CD1A8C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = DCFC4DC11AB4833D00CD1A8C /* Build configuration list for PBXProject "NgCollection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCFC4DBD1AB4833D00CD1A8C;
+			productRefGroup = DCFC4DC71AB4833D00CD1A8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFC4DC51AB4833D00CD1A8C /* NgCollection */,
+				DCFC4DD01AB4833D00CD1A8C /* NgCollectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFC4DCF1AB4833D00CD1A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFC4DC21AB4833D00CD1A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFC4DCC1AB4833D00CD1A8C /* NgCollection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFC4DCD1AB4833D00CD1A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCFC4DD41AB4833D00CD1A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFC4DC51AB4833D00CD1A8C /* NgCollection */;
+			targetProxy = DCFC4DD31AB4833D00CD1A8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCFC4DD81AB4833D00CD1A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCFC4DD91AB4833D00CD1A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCFC4DDB1AB4833D00CD1A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DCFC4DDC1AB4833D00CD1A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DCFC4DDE1AB4833D00CD1A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NgCollectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCFC4DDF1AB4833D00CD1A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NgCollectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFC4DC11AB4833D00CD1A8C /* Build configuration list for PBXProject "NgCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC4DD81AB4833D00CD1A8C /* Debug */,
+				DCFC4DD91AB4833D00CD1A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFC4DDA1AB4833D00CD1A8C /* Build configuration list for PBXNativeTarget "NgCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC4DDB1AB4833D00CD1A8C /* Debug */,
+				DCFC4DDC1AB4833D00CD1A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCFC4DDD1AB4833D00CD1A8C /* Build configuration list for PBXNativeTarget "NgCollectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFC4DDE1AB4833D00CD1A8C /* Debug */,
+				DCFC4DDF1AB4833D00CD1A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCFC4DBE1AB4833D00CD1A8C /* Project object */;
+}
