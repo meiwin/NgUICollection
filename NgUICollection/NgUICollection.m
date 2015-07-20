@@ -33,9 +33,9 @@
 - (NSString *)description
 {
   NSMutableString * str = [NSMutableString string];
-  [_sectionArray enumerateObjectsUsingBlock:^(id obj, NSUInteger section, BOOL *stop) {
+  [[_sectionArray copy] enumerateObjectsUsingBlock:^(id obj, NSUInteger section, BOOL *stop) {
     [str appendString:[NSString stringWithFormat:@"(%@)\n", obj]];
-    [_dataArray[section] enumerateObjectsUsingBlock:^(id obj, NSUInteger row, BOOL *stop) {
+    [[_dataArray[section] copy] enumerateObjectsUsingBlock:^(id obj, NSUInteger row, BOOL *stop) {
       [str appendString:[NSString stringWithFormat:@"  (%@)\n", _dataArray[section][row]]];
     }];
   }];
@@ -73,7 +73,7 @@
   NSUInteger section = 0;
   NSUInteger idx = NSNotFound;
   if (object) {
-    for (NSArray * arr in _dataArray) {
+    for (NSArray * arr in [_dataArray copy]) {
       idx = [arr indexOfObject:object];
       if (idx != NSNotFound) break;
       section++;
@@ -89,7 +89,7 @@
 }
 - (BOOL)isEmpty;
 {
-  for (NSArray * rows in _dataArray) {
+  for (NSArray * rows in [_dataArray copy]) {
     if ([rows count] > 0) return NO;
   }
   return YES;
@@ -210,12 +210,12 @@
 {
   BOOL keepGoing = YES;
   NSUInteger section = 0;
-  for (NSArray *rows in _dataArray)
+  for (NSArray *rows in [_dataArray copy])
   {
     if (!keepGoing) break;
     
     NSUInteger row = 0;
-    for (id obj in rows)
+    for (id obj in [rows copy])
     {
       if (!keepGoing) break;
       BOOL stop = NO;
@@ -230,7 +230,7 @@
 {
   BOOL keepGoing = YES;
   NSUInteger section = 0;
-  for (id sectionItem in _sectionArray)
+  for (id sectionItem in [_sectionArray copy])
   {
     if (!keepGoing) break;
     
