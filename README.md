@@ -6,7 +6,7 @@ NgUICollection is a convenience backing data-structure for use with UIKit's `UIT
 
 ## Adding to your project
 
-If you are using Cocoapods, add to your Podfile:
+If you are using CocoaPods, add to your Podfile:
 
 ```ruby
 pod NgUICollection
